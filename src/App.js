@@ -42,12 +42,12 @@ function App() {
           </section>
 
           <section class="section-2">
-            {/* <Recettes /> */}
+            
           </section>
 
         </div>
 
-        {/* <Card /> */}
+        
 
       </main>
 
