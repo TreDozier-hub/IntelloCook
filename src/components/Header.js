@@ -22,7 +22,7 @@ const Header = () => {
 
       <nav className="nav-menu">
         <a href="#" className="active">Accueil</a>
-        <a href="#">Tendance</a>
+        <a href="/pages/tendance.js">Tendance</a>
         <a href="#">Favoris</a>
         <a href="#">LePlus</a>
       </nav>
