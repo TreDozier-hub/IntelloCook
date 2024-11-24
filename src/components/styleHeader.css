@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #fdf7f5, #f1e7e3);
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    max-width: 1365px;
+    margin: 0 auto;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #555;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+
+.nav-menu a:hover {
+    text-decoration: none;
+    color: #7daa63;
+    padding-bottom: 14px;
+    padding-top: 14px;
+
+}
+
+.nav-menu a.active {
+    color: #4c8b27;
+    border: 2px;
+    border-bottom-style: none;
+    border-bottom-style: solid;
+    margin-bottom: -12px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+}
+
+.search-bar button {
+    background: white;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 20px 20px 0;
+    padding: 2px 8px;
+    cursor: pointer;
+    font-size: 19px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+.search-bar button img {
+    height: 16px;
+    width: 16px;
+}
+
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #555;
+}
+
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu.ouvert {
+    display: flex;
+    margin-right: -19px;
+    padding-left: 228px;
+    padding-top: 13px;
+    margin-top: -5px;
+    padding-bottom: 22px;
+    line-height: 2.5;
+    text-decoration: none;
+    border: none;
+    color: #555;
+}
+
+a {
+
+    text-decoration: none;
+    border: none;
+}
+
+.active {
+    text-decoration: none;
+    border: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu.show {
+        display: flex;
+    }
+}

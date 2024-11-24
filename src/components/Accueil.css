@@ -1,0 +1,153 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+    padding: 20px;
+    /* background-color: #fff; */
+    border-radius: 0px;
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+
+.logoAccueil {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    max-width: 475px;
+}
+
+.logo2 {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.logoAccueil h1 {
+    font-size: 36px;
+    font-weight: 200;
+    margin: 0;
+}
+
+
+.logoAccueil .sousTitre {
+    font-size: 1.7rem;
+    color: #555;
+    line-height: 1.2;
+}
+
+.logoAccueil .description {
+    font-size: 1.1rem;
+    color: #777;
+    line-height: 1.5;
+    font-weight: 200;
+    margin-top: 0px;
+}
+
+.buttonRecette {
+    background-color: #61a512;
+    color: white;
+    padding: 6px 13px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 200;
+    font-size: 1.1rem;
+    width: 130px;
+    font-family: 'Oswald';
+    border: 1px solid;
+
+}
+
+.buttonRecette:hover {
+    border-color: #61a512 !important;
+    border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-radius: 5px;
+    background-color: #61a51200;
+    color: #61a512;
+    font-weight: 300;
+}
+
+.imageGauche {
+    flex: 1;
+    text-align: right;
+    width: 100%;
+    max-width: 681px;
+}
+
+.imageGauche img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+}
+
+.box:hover {
+    background-color: #f9f9f9;
+    border-color: #ccc;
+}
+
+@media (max-width: 768px) {
+    .section-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imageGauche {
+        text-align: center;
+        display: none;
+    }
+
+    .logo2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .section-2 {
+        flex-direction: column;
+    }
+
+    .buttonRecette {
+
+        width: 100%;
+
+    }
+
+}
