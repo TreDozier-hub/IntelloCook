@@ -80,6 +80,92 @@
           { "aliment": "Fraises", "quantity": 100, "unit": "g", "imgAliment": "/aliments/fraise.jpg", "saisons": "Printemps-Été" }
         ],
         "saisons": ["Printemps", "Été", "Automne", "Hiver"]
+      },
+    {
+        "id": 6,
+        "plat": "Gratin dauphinois",
+        "nbPers": 4,
+        "cuisson": 50,
+        "imageRecet": "imgRecet/Gratin-dauphinois.png",
+        "etape": [
+          "Épluchez les pommes de terre et coupez-les en fines rondelles.",
+          "Disposez-les dans un plat à gratin.",
+          "Ajoutez de la crème, du lait, de l'ail, du sel et du poivre.",
+          "Enfournez à 180°C pendant 50 minutes."
+        ],
+        "ingredients": [
+          { "aliment": "Pommes de terre", "quantity": 4, "imgAliment": "aliments/pomme_de_terre.jpg", "saisons": "Automne" },
+          { "aliment": "Crème fraîche", "quantity": 200, "unit": "ml", "imgAliment": "aliments/creme_fraiche.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Lait", "quantity": 200, "unit": "ml", "imgAliment": "aliments/lait.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Ail", "quantity": 1, "unit": "gousse", "imgAliment": "aliments/ail.jpg", "saisons": "Automne" },
+          { "aliment": "Sel", "quantity": "À discrétion", "imgAliment": "aliments/sel.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poivre", "quantity": "À discrétion", "imgAliment": "aliments/poivre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Automne", "Hiver"]
+      },
+      {
+        "id": 7,
+        "plat": "Quiche lorraine",
+        "nbPers": 4,
+        "cuisson": 35,
+        "imageRecet": "imgRecet/Quiche-Lorraine.png",
+        "etape": [
+          "Étalez la pâte dans un moule.",
+          "Garnissez avec les lardons, puis versez le mélange crème et œufs.",
+          "Enfournez à 180°C pendant 35 minutes."
+        ],
+        "ingredients": [
+          { "aliment": "Pâte brisée", "quantity": 1, "imgAliment": "aliments/pate_brisee.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Lardons", "quantity": 200, "unit": "g", "imgAliment": "aliments/lardons.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Crème fraîche", "quantity": 200, "unit": "ml", "imgAliment": "aliments/creme_fraiche.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Œufs", "quantity": 3, "imgAliment": "aliments/oeufs.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Sel", "quantity": "À discrétion", "imgAliment": "aliments/sel.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poivre", "quantity": "À discrétion", "imgAliment": "aliments/poivre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Toute l'année"]
+      },
+      {
+        "id": 8,
+        "plat": "Pâtes à la carbonara",
+        "nbPers": 4,
+        "cuisson": 20,
+        "imageRecet": "imgRecet/Carbonara.png",
+        "etape": [
+          "Faites cuire les pâtes dans de l'eau bouillante salée.",
+          "Faites revenir les lardons dans une poêle.",
+          "Mélangez les œufs, la crème et le fromage râpé.",
+          "Ajoutez le mélange aux pâtes égouttées, avec les lardons."
+        ],
+        "ingredients": [
+          { "aliment": "Pâtes", "quantity": 300, "unit": "g", "imgAliment": "aliments/pates.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Lardons", "quantity": 200, "unit": "g", "imgAliment": "aliments/lardons.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Crème fraîche", "quantity": 100, "unit": "ml", "imgAliment": "aliments/creme_fraiche.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Œufs", "quantity": 2, "imgAliment": "aliments/oeufs.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Fromage râpé", "quantity": 50, "unit": "g", "imgAliment": "aliments/fromage.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Sel", "quantity": "À discrétion", "imgAliment": "aliments/sel.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poivre", "quantity": "À discrétion", "imgAliment": "aliments/poivre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Toute l'année"]
+      },
+      {
+        "id": 9,
+        "plat": "Tartiflette",
+        "nbPers": 4,
+        "cuisson": 50,
+        "imageRecet": "imgRecet/Tartiflette.png",
+        "etape": [
+          "Épluchez et coupez les pommes de terre en rondelles.",
+          "Faites revenir les oignons et les lardons.",
+          "Disposez le tout dans un plat à gratin, ajoutez du reblochon coupé en morceaux.",
+          "Enfournez à 180°C pendant 50 minutes."
+        ],
+        "ingredients": [
+          { "aliment": "Pommes de terre", "quantity": 4, "imgAliment": "aliments/pomme_de_terre.jpg", "saisons": "Automne" },
+          { "aliment": "Oignons", "quantity": 2, "imgAliment": "aliments/oignon.jpg", "saisons": "Automne" },
+          { "aliment": "Lardons", "quantity": 150, "unit": "g", "imgAliment": "aliments/lardons.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Reblochon", "quantity": 1, "imgAliment": "aliments/reblochon.jpg", "saisons": "Hiver" }
+        ],
+        "saisons": ["Automne", "Hiver"]
       }
     ]
   }

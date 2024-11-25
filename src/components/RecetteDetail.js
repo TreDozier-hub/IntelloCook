@@ -26,9 +26,34 @@ function RecetteDetail() {
     if (nbPersonnes > 1) setNbPersonnes((prev) => prev - 1);
   };
 
+  const saisonsImages = {
+    Printemps: "images/printemps.png",
+    Été: "images/ete.png",
+    Automne: "images/automne.png",
+    Hiver: "images/hiver.png"
+  };
+
   return (
     <div className="recette-detail">
-      {/* En-tête */}
+      
+      {/* Affichage des saisons */}
+    <div className="saisons-plat">
+      <h2>Saison(s)</h2>
+      <div className="saisons-images">
+        {recette.saisons.map((saison, index) => (
+          <div key={index} className="saison">
+            <img
+              src={saisonsImages[saison]}
+              alt={saison}
+              title={`Plat adapté pour ${saison}`}
+            />
+            <p>{saison}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+
+
       <div className="recette-plat">
         <h1>{recette.plat}</h1>
         {/* <p>
@@ -42,9 +67,8 @@ function RecetteDetail() {
         </div>
       </div>
 
-      {/* Contenu principal */}
+      
       <div className="recette-ensemble">
-        {/* Liste des ingrédients avec images */}
         <div className="ingredients">
           <h2>Liste ingrédients</h2>
           <div className="list-ingredients">
@@ -59,7 +83,6 @@ function RecetteDetail() {
           </div>
         </div>
 
-        {/* Quantités des ingrédients */}
         <div className="quant-ingredients">
           <h2>Quant. ingrédients</h2>
           <ul>
@@ -72,7 +95,6 @@ function RecetteDetail() {
           </ul>
         </div>
 
-        {/* Image du plat */}
         <div className="recette-image">
           <img src={recette.imageRecet} alt={recette.plat} />
         </div>
