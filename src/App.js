@@ -5,6 +5,8 @@ import Tendance from "./pages/tendance.js";
 import Image_1 from "./assets/machine-01.png";
 import Image_2 from "./assets/logo.png";
 import "./components/Accueil.css";
+import RecetteDetail from "./components/RecetteDetail.js";
+
 
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
       </header>
 
       <main>
-      {/* Définir les routes */}
+      
       <Routes>
             <Route
               path="/"
@@ -57,10 +59,11 @@ function App() {
       }
             />
             <Route path="/tendance" element={<Tendance />} />
-            {/* Ajoutez d'autres routes ici si nécessaire */}
+            <Route path="/recette/:id" element={<RecetteDetail />} />
+            {/* Ajoutez d'autres routes ici */}
           </Routes>
       </main>
-
+      
       <footer>
 
       </footer>

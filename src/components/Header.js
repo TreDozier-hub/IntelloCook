@@ -22,7 +22,7 @@ const Header = () => {
       </div>
 
       <nav className="nav-menu">
-      <Link to="/" className="active">Accueil</Link>
+       <Link to="/" >Accueil</Link> {/*className="active" */}
         <Link to="/tendance">Tendance</Link>
         <Link to="/favoris">Favoris</Link>
         <Link to="/leplus">LePlus</Link>

@@ -1,0 +1,23 @@
+
+{
+  "Hiver": {
+    "Mois": ["Décembre", "Janvier", "Février"],
+    "Fruits": ["pommes", "poire", "clémentines", "oranges", "citrons"],
+    "Légumes": ["poireaux", "pommes de terre", "carottes", "choux (chou vert, chou-fleur)", "courges (potiron, butternut)", "topinambours", "céleri-rave"]
+  },
+  "Printemps": {
+    "Mois": ["Mars", "Avril", "Mai"],
+    "Fruits": ["fraises (fin du printemps)", "rhubarbe"],
+    "Légumes": ["asperges", "petits pois", "épinards", "radis", "artichauts", "laitues", "oignons nouveaux"]
+  },
+  "Été": {
+    "Mois": ["Juin", "Juillet", "Août"],
+    "Fruits": ["cerises", "pêches", "abricots", "nectarines", "melons", "pastèques", "framboises", "mûres"],
+    "Légumes": ["courgettes", "aubergines", "tomates", "poivrons", "concombres", "haricots verts", "maïs", "betteraves"]
+  },
+  "Automne": {
+    "Mois": ["Septembre", "Octobre", "Novembre"],
+    "Fruits": ["raisins", "pommes", "poires", "noix", "châtaignes", "prunes (début d'automne)"],
+    "Légumes": ["potirons", "courges", "champignons", "choux de bruxelles", "betteraves", "navets", "fenouil"]
+  }
+}

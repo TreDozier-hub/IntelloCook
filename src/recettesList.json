@@ -1,126 +1,85 @@
 {
-
     "recette": [
-
-        
-
-        {
-            "id": 1,
-            "plat": "Ratatouille",
-            "nbPers": 4,
-            "cuisson": 40,
-            "imageRecet": "imgRecet/Ratatouille.png",
-            "etape": ["Lavez et détaillez les courgettes, l'aubergine, le poivron vert et le rouge, en cubes de taille moyenne.",
-                    "Coupez les tomates en quartiers et émincez l'oignon."],
-            "ingredients": [ 
-                {"aliment": "Courgettes", "quantity": 2 , "imgAliment": "aliments/courgette.jpg" },
-                {"aliment": "Aubergines", "quantity": 1, "imgAliment": "aliments/aubergine.jpg" },
-                {"aliment": "Poivrons", "quantity": 2, "imgAliment": "aliments/poivron.jpg" },
-                {"aliment": "Tomates", "quantity": 4, "unit": "pieces or 1 can", "imgAliment": "aliments/tomate.jpg" },
-                {"aliment": "Oignons", "quantity": 1, "unit": "piece", "imgAliment": "aliments/oignon.jpg" },
-                {"aliment": "Ail", "quantity": 2, "unit": "gousse", "imgAliment": "aliments/ail.jpg" },
-                {"aliment": "Herbes de Provence", "quantity": 1, "unit": "cuillère à café", "imgAliment": "aliments/herbes de provence.jpg" }, 
-                {"aliment": "Huile d'olive", "quantity": 2, "unit": "cuillères à soupe", "imgAliment": "aliments/huile d'olive.png" }, 
-                {"aliment": "Sel", "quantity": "to taste", "unit": "", "imgAliment": "aliments/sel.jpg" },
-                {"aliment": "Poivre", "quantity": "to taste", "unit": "", "imgAliment": "aliments/poivre.jpg" }
-
-            ]
-
-        },
-
-        {
-            "id": 2,
-            "plat": "Soupe de légumes",
-            "nbPers": 4,
-            "cuisson": 40,
-            "imageRecet": "imgRecet/soupe_de_legumes.jpg",
-            "ingredients": [
-                {"aliment": "Pommes de terre", "quantity": 2, "unit": "pieces"},
-                {"aliment": "Carottes", "quantity": 2, "unit": "pieces"},
-                {"aliment": "Oignons", "quantity": 1, "unit": "piece"},
-                {"aliment": "Poireaux ou céleri", "quantity": 1, "unit": "branch (optional)"},
-                {"aliment": "Bouillon cube", "quantity": 1, "unit": "piece"},
-                {"aliment": "Eau", "quantity": 1, "unit": "litre"}, 
-                {"aliment": "Sel", "quantity": "to taste", "unit": ""},
-                {"aliment": "Poivre", "quantity": "to taste", "unit": ""}
-
-            ]
-
-        },
-
-        {
-            "id": 3,
-            "plat": "Poulet curry coco",
-            "nbPers": 4,
-            "imageRecet": "imgRecet/Poulet curry coco.jpg",
-            "ingredients": [
-
-                {"aliment": "Filets de poulet", "quantity": 400, "unit": "gr"}, 
-
-                {"aliment": "Lait de coco", "quantity": 200, "unit": "ml"},  
-
-                {"aliment": "Curry", "quantity": 1, "unit": "cuillères à soupe"},
-
-                {"aliment": "Ail", "quantity": 1, "unit": "gousse"}, 
-
-                {"aliment": "Oignon", "quantity": 1, "unit": "piece"},
-
-                {"aliment": "Huile d'olive", "quantity": 2, "unit": "cuillères à soupe"},
-
-                {"aliment": "Sel", "quantity": "to taste", "unit": ""},
-
-                {"aliment": "Poivre", "quantity": "to taste", "unit": ""}
-
-            ]
-
-        },
-
-        {
-            "id": 4,
-            "plat": "Salade César au poulet",
-
-            "nbPers": 4,
-            "imageRecet": "imgRecet/Salade César au poulet.jpeg",
-            "ingredients": [
-
-                {"aliment": "Filets de poulet", "quantity": 300, "unit": "gr"},
-
-                {"aliment": "Laitue", "quantity": 1, "unit": "head"},
-
-                {"aliment": "Croutons", "quantity": 100, "unit": "gr"},
-
-                {"aliment": "Parmesan", "quantity": 50, "unit": "gr"},
-
-                {"aliment": "Vinaigrette César", "quantity": 100, "unit": "ml"}
-
-            ]
-
-        },
-
-        {
-            "id": 5,
-            "plat": "Tarte aux pommes",
-
-            "nbPers": 4,
-
-            "ingredients": [
-
-                {"aliment": "Pâte brisée", "quantity": 1, "unit": "piece"},
-
-                {"aliment": "Pommes", "quantity": 4, "unit": "pieces"},
-
-                {"aliment": "Sucre", "quantity": 50, "unit": "grams"},
-
-                {"aliment": "Beurre", "quantity": 20, "unit": "grams"},
-
-                {"aliment": "Cannelle", "quantity": 1, "unit": "cuillères à café"}
-
-            ]
-
-        }
-
-       
-
+      {
+        "id": 1,
+        "plat": "Ratatouille",
+        "nbPers": 4,
+        "cuisson": 40,
+        "imageRecet": "/imgRecet/Ratatouille.png",
+        "etape": [
+          "Lavez et détaillez les courgettes, l'aubergine, le poivron vert et le rouge, en cubes de taille moyenne.",
+          "Coupez les tomates en quartiers et émincez l'oignon."
+        ],
+        "ingredients": [
+          { "aliment": "Courgettes", "quantity": 2, "imgAliment": "/aliments/courgette.png", "saisons": "Été" },
+          { "aliment": "Aubergines", "quantity": 1, "imgAliment": "/aliments/aubergine.jpg", "saisons": "Été" },
+          { "aliment": "Poivrons", "quantity": 2, "imgAliment": "/aliments/poivron.jpg", "saisons": "Été" },
+          { "aliment": "Tomates", "quantity": 4, "unit": "pieces", "imgAliment": "/aliments/tomate.jpg", "saisons": "Été" },
+          { "aliment": "Oignons", "quantity": 1, "unit": "piece", "imgAliment": "/aliments/oignon.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Ail", "quantity": 2, "unit": "gousse", "imgAliment": "/aliments/ail.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Herbes de Provence", "quantity": 1, "unit": "cuillère à café", "imgAliment": "/aliments/herbes-de-provence.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Huile d'olive", "quantity": 2, "unit": "cuillères à soupe", "imgAliment": "/aliments/huile-d-olive.png", "saisons": "Toute l'année" },
+          { "aliment": "Sel", "quantity": "to taste", "unit": "", "imgAliment": "/aliments/sel.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poivre", "quantity": "to taste", "unit": "", "imgAliment": "/aliments/poivre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Été"]
+      },
+      {
+        "id": 2,
+        "plat": "Soupe de légumes",
+        "nbPers": 4,
+        "cuisson": 30,
+        "imageRecet": "imgRecet/soupe_de_legumes.jpg",
+        "etape": [
+          "Épluchez les légumes et coupez-les en morceaux.",
+          "Faites cuire dans un litre d'eau avec un bouillon cube."
+        ],
+        "ingredients": [
+          { "aliment": "Pommes de terre", "quantity": 2, "imgAliment": "/aliments/pomme-de-terre.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Carottes", "quantity": 2, "imgAliment": "/aliments/carotte.jpg", "saisons": "Automne-Hiver" },
+          { "aliment": "Oignons", "quantity": 1, "unit": "piece", "imgAliment": "/aliments/oignon.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poireaux", "quantity": 1, "unit": "branch", "imgAliment": "/aliments/poireau.jpg", "saisons": "Hiver" },
+          { "aliment": "Bouillon cube", "quantity": 1, "unit": "piece", "imgAliment": "/aliments/bouillon-cube.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Eau", "quantity": 1, "unit": "litre", "imgAliment": "/aliments/eau.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Sel", "quantity": "to taste", "imgAliment": "/aliments/sel.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Poivre", "quantity": "to taste", "imgAliment": "/aliments/poivre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Hiver", "Automne"]
+      },
+      {
+        "id": 3,
+        "plat": "Tarte aux pommes",
+        "nbPers": 6,
+        "cuisson": 50,
+        "imageRecet": "imgRecet/Tarte-aux-pommes.jpg",
+        "etape": [
+          "Préchauffez le four à 180°C.",
+          "Étalez la pâte, disposez les pommes en tranches, saupoudrez de sucre et enfournez."
+        ],
+        "ingredients": [
+          { "aliment": "Pâte feuilletée", "quantity": 1, "unit": "pièce", "imgAliment": "/aliments/pate-feuilletee.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Pommes", "quantity": 3, "unit": "pieces", "imgAliment": "/aliments/pomme.jpg", "saisons": "Automne" },
+          { "aliment": "Sucre", "quantity": 50, "unit": "g", "imgAliment": "/aliments/sucre.jpg", "saisons": "Toute l'année" }
+        ],
+        "saisons": ["Automne"]
+      },
+      {
+        "id": 4,
+        "plat": "Salade de fruits",
+        "nbPers": 4,
+        "cuisson": 0,
+        "imageRecet": "imgRecet/Salade-de-fruits.jpeg",
+        "etape": [
+          "Épluchez et découpez les fruits.",
+          "Mélangez-les dans un saladier avec un peu de sucre ou de miel."
+        ],
+        "ingredients": [
+          { "aliment": "Pommes", "quantity": 2, "imgAliment": "/aliments/pomme.jpg", "saisons": "Automne" },
+          { "aliment": "Bananes", "quantity": 2, "imgAliment": "/aliments/banane.jpg", "saisons": "Toute l'année" },
+          { "aliment": "Oranges", "quantity": 2, "imgAliment": "/aliments/orange.jpg", "saisons": "Hiver" },
+          { "aliment": "Fraises", "quantity": 100, "unit": "g", "imgAliment": "/aliments/fraise.jpg", "saisons": "Printemps-Été" }
+        ],
+        "saisons": ["Printemps", "Été", "Automne", "Hiver"]
+      }
     ]
-
-}
+  }
