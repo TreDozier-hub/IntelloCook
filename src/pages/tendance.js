@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "./components/Header.js";
-import "./components/Accueil.css";
+import "../components/Accueil.css";
+import Recettes from "../components/Recettes.js";
 
 
-function App() {
+function Tendance() {
   return (
 
 
     <div className="App">
       <header className="App-header">
         <>
-          <Header />
+          {/* <Header /> */}
         </>
       </header>
 
@@ -18,7 +18,7 @@ function App() {
 
         <div class="container">
 
-          
+          <Recettes />
 
           <section class="section-2">
             
@@ -42,4 +42,4 @@ function App() {
   );
 }
 
-export default App;
+export default Tendance;

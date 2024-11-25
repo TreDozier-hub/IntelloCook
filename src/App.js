@@ -1,14 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.js";
+import Tendance from "./pages/tendance.js";
 import Image_1 from "./assets/machine-01.png";
 import Image_2 from "./assets/logo.png";
 import "./components/Accueil.css";
+import RecetteDetail from "./components/RecetteDetail.js";
+
 
 
 function App() {
   return (
 
-
+<Router>
     <div className="App">
       <header className="App-header">
         <>
@@ -17,7 +21,11 @@ function App() {
       </header>
 
       <main>
-
+      
+      <Routes>
+            <Route
+              path="/"
+              element={
         <div class="container">
 
           <section class="section-1">
@@ -48,15 +56,20 @@ function App() {
         </div>
 
         
-
+      }
+            />
+            <Route path="/tendance" element={<Tendance />} />
+            <Route path="/recette/:id" element={<RecetteDetail />} />
+            {/* Ajoutez d'autres routes ici */}
+          </Routes>
       </main>
-
+      
       <footer>
 
       </footer>
 
     </div>
-
+    </Router>
 
 
 

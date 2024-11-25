@@ -1,0 +1,54 @@
+.Titre-recetteSimple {
+  color: rgb(51, 51, 51);
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 100;
+  text-align: left;
+  border-left-width: 2px;
+  border-left-style: solid;
+  padding-left: 6px;
+}
+
+.Image-recetteSimple {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border-radius: 10px;
+  padding: 7px;
+  text-align: center;
+  height: 200px;
+
+}
+
+.cardsSimple {
+  padding: 10px;
+  /* width: 60%; */
+  border: 1px solid rgb(226, 223, 223);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px; 
+  }
+.cardSimple {
+    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}  
+
+@media (max-width: 768px) {
+  .cardSimple {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cardsSimple {
+  
+    padding: 10px;
+  width: 100%;
+  max-width: 300px;
+ 
+  border: 1px solid rgb(226, 223, 223);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px; 
+  }
+}
