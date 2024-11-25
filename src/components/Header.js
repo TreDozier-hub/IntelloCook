@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"; // Import Link de React Router
 import Logo from "../assets/logo_site.png";
 import "../components/styleHeader.css";
 
@@ -21,10 +22,10 @@ const Header = () => {
       </div>
 
       <nav className="nav-menu">
-        <a href="#" className="active">Accueil</a>
-        <a href="/pages/tendance.js">Tendance</a>
-        <a href="#">Favoris</a>
-        <a href="#">LePlus</a>
+      <Link to="/" className="active">Accueil</Link>
+        <Link to="/tendance">Tendance</Link>
+        <Link to="/favoris">Favoris</Link>
+        <Link to="/leplus">LePlus</Link>
       </nav>
 
       <div className="search-bar">
@@ -46,10 +47,10 @@ const Header = () => {
 
       {/* Menu mobile */}
       <div className={`mobile-menu ${isMobileMenuOpen ? "show" : ""}`}>
-        <a href="#" className="active">Accueil</a>
-        <a href="#">Tendance</a>
-        <a href="#">Favoris</a>
-        <a href="#">LePlus</a>
+      <Link to="/" className="">Accueil</Link>
+        <Link to="/tendance">Tendance</Link>
+        <Link to="/favoris">Favoris</Link>
+        <Link to="/leplus">LePlus</Link>
         
       </div>
     </header>
