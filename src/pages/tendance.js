@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./components/Header.js";
-import "./components/Accueil.css";
+import Header from "../components/Header.js";
+import "../components/Accueil.css";
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <>
-          <Header />
+          {/* <Header /> */}
         </>
       </header>
 
