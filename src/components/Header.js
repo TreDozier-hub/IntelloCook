@@ -47,7 +47,7 @@ const Header = () => {
 
       {/* Menu mobile */}
       <div className={`mobile-menu ${isMobileMenuOpen ? "show" : ""}`}>
-      <Link to="/" className="">Accueil</Link>
+      <Link to="/" className="active">Accueil</Link>
         <Link to="/tendance">Tendance</Link>
         <Link to="/favoris">Favoris</Link>
         <Link to="/leplus">LePlus</Link>

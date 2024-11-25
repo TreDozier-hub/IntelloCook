@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header.js";
-import Tendance from ".//pages/tendance.js";
+import Tendance from "./pages/tendance.js";
 import Image_1 from "./assets/machine-01.png";
 import Image_2 from "./assets/logo.png";
 import "./components/Accueil.css";
