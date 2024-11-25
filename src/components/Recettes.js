@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import RecetteSimple from "./RecetteSimple";
+// import RecetteSimple from "./RecetteSimple";
 import data from "../recettesList.json";
 import "./RecetteSimple.css";
 
