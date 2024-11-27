@@ -28,10 +28,12 @@
   box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px; 
   }
 .cardSimple {
-    gap: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
     
 }  
 
