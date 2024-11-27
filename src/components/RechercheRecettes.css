@@ -1,0 +1,222 @@
+.recherche-recettes {
+    padding: 10px 20px;
+  max-width: 1365px;
+  margin: 0 auto;
+    margin-top: 0px;
+  margin-top: 48px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.alimentSelector {
+    margin-bottom: 10px;
+  font-family: "Oswald";
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.ingredientInput {
+    padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-width: 20em
+} 
+
+.alignementInputRecherche {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.ingredient-card {
+    /* display: flex;
+    justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 100px;
+    text-align: center;
+    
+}
+
+
+
+/* .buttons {
+    display: flex;
+    gap: 10px;
+} */
+
+.buttonGarder, .buttonEviter {
+    background-color: #28a745;
+  color: white;
+  padding: 3px 7px;
+  border: none;
+  border-radius: 242px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.buttonEviter {
+    background-color: #dc3545;
+    padding: 3px 9px;
+}
+
+.ingredient-section {
+    margin-top: 20px;
+    width: 48%;  /* Pour occuper presque 50% de l'espace */
+    display: inline-block;
+    vertical-align: top;  /* Aligne les sections côte à côte */
+}
+
+.ingredient-list {
+    display: flex;
+   flex-wrap: wrap; 
+    gap: 5px;
+}
+
+.ingredient-card img {
+    object-fit: cover;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #ddd
+}
+
+.recipe-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.recipe-card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.recipe-card-title {
+    font-size: 16px;
+    /* padding: 10px; */
+}
+
+.delete-button {
+    background-color: #f7f7f7;
+  color: #b50000;
+  padding: 3px 7px;
+  border: none;
+  border-radius: 242px;
+  cursor: pointer;
+  padding-top: -41px;
+  margin-top: -30px;
+}
+
+/* Mise en page des sections principales en ligne (côte à côte) */
+.container-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Optionnel: Espacement des cartes de recettes pour qu'elles ne se chevauchent pas */
+.resultatRecherchePlat {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.Titre-recetteSimple {
+    color: rgb(51, 51, 51);
+    font-size: 0.8em;
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: left;
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding-left: 6px;
+  }
+  
+  .Image-recetteSimple {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    border-radius: 10px;
+    padding: 7px;
+    text-align: center;
+    height: 200px;
+  
+  }
+  
+  .cardsSimple {
+    padding: 10px;
+    /* width: 60%; */
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px; 
+    }
+  .cardSimple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    overflow: hidden;
+      
+  }  
+  
+  .CardsSimple {
+    padding: 10px;
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px;
+  }
+
+  .Titre-ingredient {
+    color: rgb(51, 51, 51);
+  font-size: 0.8em;
+  margin-top: 10px;
+  font-weight: 100;
+  text-align: center;
+  font-style: oblique;
+  }
+
+  .ingredient-title {
+    font-family: "Oswald";
+    font-weight: 100;
+    font-size: 1.5rem;
+  }
+  
+  
+
+  @media (max-width: 768px) {
+    .cardSimple {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .cardsSimple {
+    
+      padding: 10px;
+    width: 100%;
+    max-width: 300px;
+   
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.068) 0px 4px 8px; 
+    }
+  }

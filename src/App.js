@@ -1,11 +1,13 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import Header from "./components/Header.js";
 import Tendance from "./pages/tendance.js";
 import Image_1 from "./assets/machine-01.png";
 import Image_2 from "./assets/logo.png";
 import "./components/Accueil.css";
 import RecetteDetail from "./components/RecetteDetail.js";
+import RechercheRecettes from "./components/RechercheRecettes.js";
 
 
 
@@ -44,6 +46,7 @@ function App() {
 
               {/* Pas encore de lien derriere */}
               <button class="buttonRecette">Commencer</button>
+              <Link to="/RechercheRecettes">Commencer</Link>
               <br />
               <br />
             </div>
@@ -60,6 +63,7 @@ function App() {
             />
             <Route path="/tendance" element={<Tendance />} />
             <Route path="/recette/:id" element={<RecetteDetail />} />
+            <Route path="/RechercheRecettes" element={<RechercheRecettes />} />
             {/* Ajoutez d'autres routes ici */}
           </Routes>
       </main>

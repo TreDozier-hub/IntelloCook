@@ -86,7 +86,7 @@
         "plat": "Gratin dauphinois",
         "nbPers": 4,
         "cuisson": 50,
-        "imageRecet": "imgRecet/Gratin-dauphinois.png",
+        "imageRecet": "imgRecet/gratin-dauphinoie.jpg",
         "etape": [
           "Épluchez les pommes de terre et coupez-les en fines rondelles.",
           "Disposez-les dans un plat à gratin.",
@@ -108,7 +108,7 @@
         "plat": "Quiche lorraine",
         "nbPers": 4,
         "cuisson": 35,
-        "imageRecet": "imgRecet/Quiche-Lorraine.png",
+        "imageRecet": "imgRecet/quiche-Lorraine.jpg",
         "etape": [
           "Étalez la pâte dans un moule.",
           "Garnissez avec les lardons, puis versez le mélange crème et œufs.",
@@ -129,7 +129,7 @@
         "plat": "Pâtes à la carbonara",
         "nbPers": 4,
         "cuisson": 20,
-        "imageRecet": "imgRecet/Carbonara.png",
+        "imageRecet": "imgRecet/carbonara.jpg",
         "etape": [
           "Faites cuire les pâtes dans de l'eau bouillante salée.",
           "Faites revenir les lardons dans une poêle.",
@@ -152,7 +152,7 @@
         "plat": "Tartiflette",
         "nbPers": 4,
         "cuisson": 50,
-        "imageRecet": "imgRecet/Tartiflette.png",
+        "imageRecet": "imgRecet/tartiflette.jpg",
         "etape": [
           "Épluchez et coupez les pommes de terre en rondelles.",
           "Faites revenir les oignons et les lardons.",
