@@ -27,10 +27,10 @@ function RecetteDetail() {
   };
 
   const saisonsImages = {
-    Printemps: "images/printemps.png",
-    Été: "images/ete.png",
-    Automne: "images/automne.png",
-    Hiver: "images/hiver.png"
+    Printemps: "printemps.png",
+    Été: "./assets/ete.png",
+    Automne: "./assets/automne.png",
+    Hiver: "../assets/hiver.png"
   };
 
   return (

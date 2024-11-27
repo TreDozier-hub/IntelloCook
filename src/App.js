@@ -45,8 +45,8 @@ function App() {
               </p>
 
               {/* Pas encore de lien derriere */}
-              <button class="buttonRecette">Commencer</button>
-              <Link to="/RechercheRecettes">Commencer</Link>
+              {/* <button class="buttonRecette">Commencer</button> */}
+              <Link class="buttonRecette" to="/RechercheRecettes">Commencer</Link>
               <br />
               <br />
             </div>
